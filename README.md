@@ -22,7 +22,7 @@ Running the app could either be done directly from a USB flash drive or installe
 
 #### Installation
 
-Installation onto the TV must be made in several steps and requires the [Samsung Smart TV SDK](https://www.samsungdforum.com/devtools/sdkdownload) and a web server acting as syncroniztion server.
+Installation onto the TV must be made in several steps and requires the [Samsung Smart TV SDK](https://www.samsungdforum.com/devtools/sdkdownload) and a web server acting as a syncronization server.
 
 1. **Configuration of the SDK IDE**
 
@@ -30,15 +30,15 @@ Installation onto the TV must be made in several steps and requires the [Samsung
 
 2. **Packaging**
 
- Import the project to the IDE. Choose *[ Export ]* meny option and *Samsung Smart TV Apps/Package file* as destination. Check the *Update the packaged files on the server* and finish the job. 
+ Import the project to the IDE. Choose *[ Export ]* meny option and *Samsung Smart TV Apps/Package file* as destination. Check the option *Update the packaged files on the server* and finish the job. 
  
- The file `widgetlist.xml` will be created or updated in the synronization root directory. The packate will be deployed in the subfolder *Widget*.
+ The file `widgetlist.xml` will be created or updated in the synronization root directory. The package will be deployed in the subfolder *Widget*.
 
 3. **Install into TV**
 
   TBD.
   
 ### Copyright notice
-The *Last.fm Now* app is based on a fork of the jQuery plugin [Last.fm Now Playing Widget](http://devteaminc.github.io/Last.fm-Now-Playing-Widget/) from [DevTeam Inc.](http://devteaminc.co) which is licensed under *The MIT License*.
+The *Last.fm Now* app is based on a fork of the [jQuery](https://jquery.com) plugin [Last.fm Now Playing Widget](http://devteaminc.github.io/Last.fm-Now-Playing-Widget/) from [DevTeam Inc.](http://devteaminc.co) which is licensed under *The MIT License*.
 
 *Last.fm Now* is based on the same license.

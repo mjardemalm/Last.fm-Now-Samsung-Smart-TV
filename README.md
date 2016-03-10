@@ -36,7 +36,7 @@ Installation onto the TV must be made in several steps and requires the [Samsung
 
 3. **Install into TV**
 
-  TBD.
+  Log in with Samsung account *develop*. From the *More Apps* meny choose options and enter the IP address of the *User App Sync Server*. Make sure that the sync server is running. From the same options meny, choose *Start App Sync* and *Last.fm Now* will be installed on to the TV.
   
 ### Copyright notice
 The *Last.fm Now* app is based on a fork of the [jQuery](https://jquery.com) plugin [Last.fm Now Playing Widget](http://devteaminc.github.io/Last.fm-Now-Playing-Widget/) from [DevTeam Inc.](http://devteaminc.co) which is licensed under *The MIT License*.

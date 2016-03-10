@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget>
+	<cpname itemtype="string"></cpname>
+	<cplogo itemtype="string"></cplogo>
+	<cpauthjs itemtype="string"></cpauthjs>
+	<ThumbIcon itemtype="string">icon/Last.fm-Now_106_87.jpg</ThumbIcon>
+	<BigThumbIcon itemtype="string">icon/Last.fm-Now_115_95.jpg</BigThumbIcon>
+	<ListIcon itemtype="string">icon/Last.fm-Now_85_70.jpg</ListIcon>
+	<BigListIcon itemtype="string">icon/Last.fm-Now_95_78.jpg</BigListIcon>
+	<category itemtype="string"></category>
+	<autoUpdate itemtype="boolean">n</autoUpdate>
+	<ver itemtype="string">0.900</ver>
+	<mgrver itemtype="string"></mgrver>
+	<fullwidget itemtype="boolean">y</fullwidget>
+	<type itemtype="string">user</type>
+	<srcctl itemtype="boolean">y</srcctl>
+	<ticker itemtype="boolean">n</ticker>
+	<childlock itemtype="boolean">n</childlock>
+	<videomute itemtype="boolean">n</videomute>
+	<dcont itemtype="boolean">y</dcont>
+	<widgetname itemtype="string">Last.fm Now</widgetname>
+	<description itemtype="string">Displaying current scrobble to Last.fm</description>
+	<width itemtype="string">1280</width>
+	<height itemtype="string">720</height>
+	<author itemtype="group">
+		<name itemtype="string">Markus Jardemalm</name>
+		<email itemtype="string">markus@jardemalm.se</email>
+		<link itemtype="string">http://jardemalm.se/markus/nowplaying</link>
+		<organization itemtype="string">jardemalm.se</organization>
+	</author>
+</widget>

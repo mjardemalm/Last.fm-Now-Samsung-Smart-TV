@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Last.fm Now</title>
+
+		<!-- Properties -->
+		<script src="resource/nowplaying-config.js"></script>
+
+		<!-- Javascript code -->
+		<script type='text/javascript' src='app/javascript/jquery.js'></script>
+		<script type="text/javascript" src="app/javascript/jquery.lastfmnowplaying.js"></script>
+		<script type="text/javascript" src="app/javascript/nowplaying.js"></script>
+
+		<!-- Style sheets -->
+		<link rel="stylesheet" href="app/stylesheets/Main.css" type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400,700,400italic' rel='stylesheet' type='text/css'>
+
+	</head>
+	<body>
+		<div class="nowPlayingDisplayArea">
+			<script type="text/template" id="lastFmWidget">
+				<p><span class="title">Now playing</span></p>
+				<p><span class="intro">{ track.artist }'s</span> <strong><span class="intro">{ track.title }</span></strong> <span class="intro">from <em>{ track.album }</em></span></p>
+				<p><img src="{ track.image.extralarge }"></p>
+			</script>
+		</div>
+	</body>
+</html>

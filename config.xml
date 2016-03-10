@@ -9,7 +9,7 @@
 	<BigListIcon itemtype="string">icon/Last.fm-Now_95_78.jpg</BigListIcon>
 	<category itemtype="string"></category>
 	<autoUpdate itemtype="boolean">n</autoUpdate>
-	<ver itemtype="string">0.900</ver>
+	<ver itemtype="string">0.904</ver>
 	<mgrver itemtype="string"></mgrver>
 	<fullwidget itemtype="boolean">y</fullwidget>
 	<type itemtype="string">user</type>
@@ -19,10 +19,10 @@
 	<videomute itemtype="boolean">n</videomute>
 	<dcont itemtype="boolean">y</dcont>
 	<widgetname itemtype="string">Last.fm Now</widgetname>
-	<description itemtype="string">Displaying current scrobble to Last.fm</description>
+	<description itemtype="string">Displaying current scrobbling to Last.fm</description>
 	<width itemtype="string">1280</width>
 	<height itemtype="string">720</height>
-	<author itemtype="group">
+	<author itemtype="group"> 
 		<name itemtype="string">Markus Jardemalm</name>
 		<email itemtype="string">markus@jardemalm.se</email>
 		<link itemtype="string">http://jardemalm.se/markus/nowplaying</link>

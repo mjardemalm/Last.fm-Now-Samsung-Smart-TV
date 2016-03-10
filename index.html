@@ -4,11 +4,16 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>Last.fm Now</title>
 
+		<!-- Common API -->
+		<script type="text/javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></script>
+		<script type="text/javascript" src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script>
+
 		<!-- Properties -->
 		<script src="resource/nowplaying-config.js"></script>
 
 		<!-- Javascript code -->
 		<script type='text/javascript' src='app/javascript/jquery.js'></script>
+		<script type="text/javascript" src="app/javascript/Main.js"></script>
 		<script type="text/javascript" src="app/javascript/jquery.lastfmnowplaying.js"></script>
 		<script type="text/javascript" src="app/javascript/nowplaying.js"></script>
 
@@ -17,7 +22,11 @@
 		<link href='https://fonts.googleapis.com/css?family=Raleway:400,700,400italic' rel='stylesheet' type='text/css'>
 
 	</head>
-	<body>
+	<body onload="Main.onLoad();" onunload="Main.onUnload();">
+
+		<!-- Dummy anchor as focus for key events -->
+		<a href="javascript:void(0);" id="anchor" onkeydown="Main.keyDown();"></a>
+
 		<div class="nowPlayingDisplayArea">
 			<script type="text/template" id="lastFmWidget">
 				<p><span class="title">Now playing</span></p>
@@ -25,5 +34,6 @@
 				<p><img src="{ track.image.extralarge }"></p>
 			</script>
 		</div>
+		
 	</body>
 </html>
